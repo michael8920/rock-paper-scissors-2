@@ -1,1 +1,1 @@
-# rock-paper-scissors-2
+# Rock Paper Scissors Project with simple UI
