@@ -2,19 +2,30 @@ body {
     background-color: rgb(170, 108, 57);
 }
 
-
-button {
-    background-color: rgb(255, 209, 170);
-}
-button:hover {
-    background-color: rgb(212, 154, 106);
-}
 h1, h3, h4, button {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
 #gamescore, #score, #roundscore, #playerchoice, #computerchoice, #newgamediv, .buttons {
     text-align: center;
+}
+
+#score {
+    font-weight: bold;
+    font-size: 45px;
+}
+/* BUTTONS */
+
+button {
+    background-color: rgb(255, 209, 170);
+}
+
+button:hover {
+    background-color: rgb(212, 154, 106);
+}
+
+#rock:hover, #paper:hover, #scissors:hover, #newGameBtn:hover {
+    border: 5px rgb(128, 69, 21) inset;
 }
 
 #rock, #paper, #scissors {
@@ -35,14 +46,7 @@ h1, h3, h4, button {
     border-radius: 1%;
     font-size: 25px;
 }
-#rock:hover, #paper:hover, #scissors:hover, #newGameBtn:hover {
-    font-size: 27px;
-}
 
-#score {
-    font-weight: bold;
-    font-size: 45px;
-}
 
 /* RESETING USER AGENT STYLESHEETS FROM BUTTONS */
 
