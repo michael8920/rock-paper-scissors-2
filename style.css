@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(170, 108, 57);
+}
+
+
+button {
+    background-color: rgb(255, 209, 170);
+}
+button:hover {
+    background-color: rgb(212, 154, 106);
+}
+h1, h3, h4, button {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+#gamescore, #score, #roundscore, #playerchoice, #computerchoice, #newgamediv, .buttons {
+    text-align: center;
+}
+
+#rock, #paper, #scissors {
+    width: 160px;
+    height: 120px;
+    margin-left: 15px;
+}
+
+#newGameBtn {
+    width: 100px;
+    height: 70px;
+}
+
+#rock, #paper, #scissors, #newGameBtn {
+    border: 5px rgb(128, 69, 21) outset;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: bold;
+    border-radius: 1%;
+    font-size: 25px;
+}
+#rock:hover, #paper:hover, #scissors:hover, #newGameBtn:hover {
+    font-size: 27px;
+}
+
+#score {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+/* RESETING USER AGENT STYLESHEETS FROM BUTTONS */
+
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+ button,
+ input,
+ optgroup,
+ select,
+ textarea {
+   font-family: inherit; /* 1 */
+   font-size: 100%; /* 1 */
+   line-height: 1.15; /* 1 */
+   margin: 0; /* 2 */
+ }
+ 
+ /**
+  * Show the overflow in IE.
+  * 1. Show the overflow in Edge.
+  */
+ 
+ button,
+ input { /* 1 */
+   overflow: visible;
+ }
+ 
+ /**
+  * Remove the inheritance of text transform in Edge, Firefox, and IE.
+  * 1. Remove the inheritance of text transform in Firefox.
+  */
+ 
+ button,
+ select { /* 1 */
+   text-transform: none;
+ }
+ 
+ /**
+  * Correct the inability to style clickable types in iOS and Safari.
+  */
+ 
+ button,
+ [type="button"],
+ [type="reset"],
+ [type="submit"] {
+   -webkit-appearance: button;
+ }
+
